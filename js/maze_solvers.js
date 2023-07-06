@@ -40,7 +40,7 @@ function maze_solvers_interval()
 			place_to_cell(path_list[path_list_index][0], path_list[path_list_index][1]).classList.add("cell_path");
 			path_list_index++;
 		}
-	}, 100);
+	}, 10);
 }
 
 function breadth_first()
